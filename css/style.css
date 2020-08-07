@@ -1,0 +1,102 @@
+
+body{
+  color:#11999E
+  margin:0;
+  text-align: center;
+  font-family: font-family: 'Merriweather', serif;
+}
+h1{
+  color: #66BFBF;
+  margin-top: 0;
+  margin-bottom:  0;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+}
+h2{
+  color: #66BFBF;
+  font-weight:normal
+}
+h3,a{
+  color:#11999E;
+}
+h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container{
+  padding-top: 100px;
+  background-color: #e0fcff;
+  position: relative;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left:250px;
+}
+.bottom-container{
+  background-color: #66BFBF;
+}
+.top-cloud{
+  position: absolute;
+  top: 40px;
+  right:300px;
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .footer-link{
+    text-decoration: none;
+  }
+  .footer-link:hover{
+    color:white;
+  }
+.skill-row{
+  margin:100px auto 100px auto 100px;
+  line-height: 2;
+}
+.linkedin{
+  margin-right: 50px;
+}
+.insta{
+  margin-left: 50px;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: darkgrey;
+  border-width: 8px;
+  width: 8%;
+  margin: 100px auto;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #1199E);
+  background-image: -o-linear-gradient(top, #11CDD4, #1199E);
+  background-image: linear-gradient(to bottom, #11CDD4, #1199E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:'Merriweather', serif;
+  color: WHITE;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC418);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC418);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC418);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC418);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC418);
+  text-decoration: none;
+}
+.mountain{
+  width:auto;
+}
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
